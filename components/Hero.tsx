@@ -1,3 +1,5 @@
+"use client";
+
 import { FaDownload, FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -5,17 +7,10 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
-  const handleDownload = () => {
-  const link = document.createElement("a");
-  link.href = "/Zarqa_Shehwar_CV.pdf";
-  link.download = "ZarqaShehwar_CV.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
+
 
   return (
-   <div className="pb-20 pt-36 relative h-screen">
+   <div className="pb-20 pt-36 ">
 
       {/**
        *  UI: Spotlights
@@ -73,12 +68,13 @@ const Hero = () => {
             high-performance experiences.
           </p>
 
+              <a href="/Zarqa_Shehwar_CV.pdf" download="ZarqaShehwar_CV.pdf">
             <MagicButton
               title="Download CV"
               icon={<FaDownload />}
               position="right"
-              handleClick={handleDownload}
             />
+          </a>
         </div>
       </div>
     </div>
