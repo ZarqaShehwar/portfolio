@@ -226,18 +226,16 @@ export const workExperience = [
 ];
 
 
-
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/ZarqaShehwar/"
   },
+  
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/zarqa-shehwar-2b4b621b4/"
   },
 ];
