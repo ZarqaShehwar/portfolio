@@ -236,6 +236,6 @@ export const socialMedia = [
   {
     id: 2,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/zarqa-shehwar-2b4b621b4/"
+    link:"https://www.linkedin.com/in/zarqa-shehwar/"
   },
 ];
